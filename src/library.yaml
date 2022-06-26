@@ -1,0 +1,51 @@
+equipment_type:
+  hblDplx20A:
+    manufacturer: Hubbell
+    mpn: 5352WTR
+    mounting_type: singleGang
+    type: power
+    faces:
+      hot: <svg>
+      neutral: <svg>
+      front: <svg>
+
+connector_type:
+  ScrewTermBrass:
+    description: screw terminals present on outlets and switches. Used for hot terminal.
+    gender: unknown
+    pincount: 1
+    height: 6.35
+    width: 6.35
+    diameter: 6.35
+    pincolors: black
+
+wire_type:
+  SWTHHN10:
+    material: Copper
+    manufacturer: Southwire
+    pn: ""
+    mpn: ""
+    supplier: ""
+    spn: ""
+    insulation_material: Thermoplastic
+    wire_type_code: THHN
+    cross_sect_area: 6
+    stranded: true
+    num_strands: 19
+    insul_volt_rating: 600
+    insul_temp_rating: 90
+  SWTHHN12:
+    material: Copper
+    manufacturer: Southwire
+    pn: ""
+    mpn: ""
+    supplier: ""
+    spn: ""
+    insulation_material: Thermoplastic
+    wire_type_code: THHN
+    cross_sect_area: 4
+    stranded: true
+    num_strands: 19
+    insul_volt_rating: 600
+    insul_temp_rating: 90
+
